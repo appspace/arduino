@@ -5,7 +5,7 @@
 
 // Hardware configuration: Set up nRF24L01 radio on SPI bus plus pins 9 & 10 
 RF24 radio(9,10);
-
+//test
 const uint64_t pipe = 0xE8E8F0F0E1LL;
 char data[] = {"b"};
 char buf[5];
