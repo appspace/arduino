@@ -69,7 +69,6 @@ void initDHCPNetwork() {
     lcd.print("Cannot obtain IP");
     for(;;) ;
   }
-  //udp.begin(port);
 }
 
 void initRelay() {
