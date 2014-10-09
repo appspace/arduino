@@ -56,7 +56,7 @@ void loop() {
           Serial.print("Setting pin ");
           Serial.print(relayInput, DEC);
           Serial.print(" to ");
-          Serial.print(state, BIN);
+          Serial.println(state, BIN);
           relayState[relayInput] = state;
       }
     }
